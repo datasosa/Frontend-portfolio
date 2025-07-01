@@ -33,7 +33,7 @@ A feature-rich and intuitive task management application designed to help users 
 * **Key Features:** Add/delete tasks, mark as complete, filter tasks, persistent storage.
 * **Technologies Used:** React, JavaScript, CSS Modules, Local Storage.
 * **GitHub Repository:** [https://github.com/datasosa/NexusTask-Todo-App](https://github.com/datasosa/NexusTask-Todo-App)
-* **Live Demo:** [https://your-nexustask-demo-url.com](https://your-nexustask-demo-url.com) (If applicable)
+* **Live Demo:** [Nexustask-Todo-App](https://github.com/datasosa/NexusTask-Todo-App) (If applicable)
 
 ### 2. Urban Landscapes
 
@@ -42,7 +42,7 @@ A captivating static website showcasing beautiful urban photography and design, 
 * **Key Features:** Responsive design, image galleries, smooth scrolling.
 * **Technologies Used:** HTML5, CSS3, JavaScript.
 * **GitHub Repository:** [https://github.com/datasosa/urban-landscapes](https://github.com/datasosa/urban-landscapes)
-* **Live Demo:** [https://your-urban-landscapes-demo-url.com](https://your-urban-landscapes-demo-url.com) (If applicable)
+* **Live Demo:** [Urban-landscapes](https://github.com/datasosa/urban-landscapes) (If applicable)
 
 ### 3. Crypto Tracker
 
@@ -51,7 +51,7 @@ An application that allows users to track real-time cryptocurrency prices, marke
 * **Key Features:** Displays real-time crypto data, search functionality, interactive charts (if implemented).
 * **Technologies Used:** React, JavaScript, External API (e.g., CoinGecko API), Styled Components.
 * **GitHub Repository:** [https://github.com/datasosa/crypto-tracker](https://github.com/datasosa/crypto-tracker)
-* **Live Demo:** [https://your-crypto-tracker-demo-url.com](https://your-crypto-tracker-demo-url.com) (If applicable)
+* **Live Demo:** [Crypto-Tracker](https://github.com/datasosa/crypto-tracker) (If applicable)
 
 ---
 
