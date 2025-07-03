@@ -15,7 +15,8 @@ I'm **Osasele Osagie**, a **passionate Frontend Developer, UI/UX Enthusiast, and
 **My Core Skills Include:**
 
 * **Languages:** HTML5, CSS3, JavaScript (ES6+)
-* **Frameworks/Libraries:** React * **Styling:** Responsive Design, CSS Flexbox, CSS Grid, CSS Modules, Styled Components, Tailwind CSS, Sass/Less, Bootstrap
+* **Frameworks/Libraries:** React
+* **Styling:** Responsive Design, CSS Flexbox, CSS Grid, CSS Modules, Styled Components, Tailwind CSS, Sass/Less, Bootstrap
 * **Tools & Technologies:** Version Control (Git, GitHub), npm/Yarn, Webpack, Babel, RESTful APIs, JSON, Figma (for design review)
 * **Concepts:** Component-Based Architecture, State Management, Asynchronous JavaScript, Performance Optimization, Accessibility (A11y), Cross-Browser Compatibility
 
@@ -41,7 +42,7 @@ A feature-rich and intuitive task management application designed to help users 
 * **Key Features:** Add/delete tasks, mark as complete, filter tasks, persistent storage.
 * **Technologies Used:** React, JavaScript, CSS Modules, Local Storage.
 * **GitHub Repository:** [https://github.com/datasosa/NexusTask-Todo-App](https://github.com/datasosa/NexusTask-Todo-App)
-* **Live Demo:** [**UPDATE THIS LINK TO LIVE DEMO**]
+* **Live Demo:** [https://datasosa.github.io/NexusTask-Todo-App/](https://datasosa.github.io/NexusTask-Todo-App/)
 
 ### 3. Urban Landscapes
 
@@ -50,7 +51,7 @@ A captivating static website showcasing beautiful urban photography and design, 
 * **Key Features:** Responsive design, image galleries, smooth scrolling.
 * **Technologies Used:** HTML5, CSS3, JavaScript.
 * **GitHub Repository:** [https://github.com/datasosa/urban-landscapes](https://github.com/datasosa/urban-landscapes)
-* **Live Demo:** [**UPDATE THIS LINK TO LIVE DEMO**]
+* **Live Demo:** [https://datasosa.github.io/Urban-landscapes/](https://datasosa.github.io/Urban-landscapes/)
 
 ### 4. Crypto Tracker
 
@@ -59,7 +60,7 @@ An application that allows users to track real-time cryptocurrency prices, marke
 * **Key Features:** Displays real-time crypto data, search functionality, interactive charts (if implemented).
 * **Technologies Used:** React, JavaScript, External API (e.g., CoinGecko API), Styled Components.
 * **GitHub Repository:** [https://github.com/datasosa/crypto-tracker](https://github.com/datasosa/crypto-tracker)
-* **Live Demo:** [**UPDATE THIS LINK TO LIVE DEMO**]
+* **Live Demo:** [https://datasosa.github.io/crypto-tracker/](https://datasosa.github.io/crypto-tracker/)
 
 ---
 
@@ -73,8 +74,8 @@ I am continuously working on new projects and improving my skills. Expect to see
 
 I'm always open to collaborating on interesting projects or discussing new opportunities. Feel free to connect with me!
 
-* **Email:** [osasosagierich@gmail.com](mailto:osasosagierich@gmail.com)
-* **LinkedIn:** [https://www.linkedin.com/in/Osas-Osagie](https://www.linkedin.com/in/Osas-Osagie)
+* **Email:** 📧 [osasosagierich@gmail.com](mailto:osasosagierich@gmail.com)
+* **LinkedIn:** 🔗 [https://www.linkedin.com/in/Osas-Osagie](https://www.linkedin.com/in/Osas-Osagie)
 
 ---
 
