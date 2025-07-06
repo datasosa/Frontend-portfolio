@@ -62,7 +62,7 @@ An application that allows users to track real-time cryptocurrency prices, marke
 * **GitHub Repository:** [https://github.com/datasosa/crypto-tracker](https://github.com/datasosa/crypto-tracker)
 * **Live Demo:** [https://datasosa.github.io/crypto-tracker/](https://datasosa.github.io/crypto-tracker/)
 
-###5. Arcade Ascend - Mini Game Web App Prototype
+### 5. Arcade Ascend - Mini Game Web App Prototype
 
 A compact, browser-based mini-game prototype that demonstrates interactive game elements, UI logic, and smooth transitions — all built with vanilla JavaScript. It’s a static frontend project meant to showcase creative control and user interaction.
 
