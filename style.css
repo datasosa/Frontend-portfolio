@@ -1,3 +1,20 @@
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* Global base */
 body {
   margin: 0;
@@ -5,6 +22,7 @@ body {
   background: #f9f9f9;
   color: #1e293b;
   line-height: 1.6;
+  animation: fadeIn 0.5s ease-in;
 }
 
 /* Hero Section */
@@ -13,6 +31,7 @@ header.hero {
   color: #fff;
   text-align: center;
   padding: 4rem 1rem 3rem;
+  animation: fadeInUp 0.7s ease-out;
 }
 
 header.hero h1 {
@@ -30,6 +49,7 @@ header.hero p {
   padding: 3rem 1rem;
   max-width: 1200px;
   margin: auto;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 .projects h2 {
@@ -57,6 +77,8 @@ header.hero p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation: fadeInUp 0.9s ease-out;
+  animation-fill-mode: both;
 }
 
 .card:hover {
@@ -100,6 +122,7 @@ header.hero p {
   background: #f1f5f9;
   padding: 3rem 1rem;
   text-align: center;
+  animation: fadeInUp 1s ease-out;
 }
 
 .contact h2 {
@@ -129,4 +152,5 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   color: #475569;
+  animation: fadeInUp 1.2s ease-out;
 }
