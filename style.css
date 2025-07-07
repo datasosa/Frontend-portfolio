@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,6 +7,7 @@ body {
   line-height: 1.6;
 }
 
+/* Hero section */
 header.hero {
   text-align: center;
   padding: 2rem;
@@ -13,54 +15,101 @@ header.hero {
   color: white;
 }
 
+/* Projects section */
 .projects {
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 .projects h2 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
 }
 
+/* Responsive project grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
-  margin-top: 1rem;
+  grid-template-columns: 1fr;
 }
 
+@media (min-width: 600px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Project cards */
 .card {
   background: white;
-  padding: 1.5rem;
+  padding: 1.2rem 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
 .card h3 {
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+/* Links as buttons */
 .card a {
   display: inline-block;
-  margin-right: 1rem;
-  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
   color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .card a:hover {
-  text-decoration: underline;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
 }
 
+/* Contact section */
 .contact {
   background: #e2e8f0;
-  padding: 2rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   color: #555;
+  background-color: #f1f5f9;
 }
