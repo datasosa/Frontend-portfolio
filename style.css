@@ -1,28 +1,10 @@
-/* Base Animation Classes */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-/* Apply on page load */
+/* Global base */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f9f9f9;
   color: #1e293b;
   line-height: 1.6;
-  animation: fadeIn 0.6s ease-in;
 }
 
 /* Hero Section */
@@ -31,7 +13,6 @@ header.hero {
   color: #fff;
   text-align: center;
   padding: 4rem 1rem 3rem;
-  animation: fadeInUp 0.8s ease-out;
 }
 
 header.hero h1 {
@@ -44,7 +25,7 @@ header.hero p {
   color: #cbd5e1;
 }
 
-/* Projects */
+/* Projects Section */
 .projects {
   padding: 3rem 1rem;
   max-width: 1200px;
@@ -58,7 +39,7 @@ header.hero p {
   color: #0f172a;
 }
 
-/* Grid */
+/* Grid Setup */
 .project-grid {
   display: grid;
   gap: 2rem;
@@ -66,19 +47,20 @@ header.hero p {
   padding: 0 1rem;
 }
 
-/* Cards */
+/* Project Card Styling */
 .card {
   background: #fff;
   padding: 2rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  animation: fadeInUp 1s ease-out;
-  animation-fill-mode: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
-  transform: translateY(-6px) scale(1.02);
+  transform: translateY(-6px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
 
@@ -94,6 +76,7 @@ header.hero p {
   color: #475569;
 }
 
+/* Buttons */
 .card a {
   display: inline-block;
   margin-right: 0.5rem;
@@ -117,7 +100,6 @@ header.hero p {
   background: #f1f5f9;
   padding: 3rem 1rem;
   text-align: center;
-  animation: fadeInUp 1s ease-out;
 }
 
 .contact h2 {
